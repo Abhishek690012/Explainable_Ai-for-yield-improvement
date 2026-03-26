@@ -1,0 +1,38 @@
+2026-03-26 13:54:01,103 - INFO - === Process Quality XAI Pipeline ===
+2026-03-26 13:54:01,103 - INFO - 1. Loading and preprocessing data...
+2026-03-26 13:54:01,118 - INFO - 2. Training XGBoost Model...
+2026-03-26 13:54:03,442 - INFO - XGBoost Test MAE: 2.5600
+2026-03-26 13:54:03,443 - INFO - 3. Calculating SHAP values...
+2026-03-26 13:54:03,473 - INFO - --- Step 1: Process Prioritization ---
+2026-03-26 13:54:03,473 - INFO - 1. Process_3: 7.4059
+2026-03-26 13:54:03,474 - INFO - 2. Process_4: 1.3364
+2026-03-26 13:54:03,474 - INFO - 3. Process_2: 1.1125
+2026-03-26 13:54:03,474 - INFO - 4. Process_5: 1.0094
+2026-03-26 13:54:03,474 - INFO - 5. Process_1: 0.9540
+2026-03-26 13:54:03,474 - INFO - Top-ranked process identified: Process_3
+2026-03-26 13:54:03,475 - INFO - --- Step 2: Action Selection ---
+2026-03-26 13:54:03,476 - INFO - Mean raw SHAP values by potential actions:
+2026-03-26 13:54:03,476 - INFO -   Machine_A: 4.1989
+2026-03-26 13:54:03,476 - INFO -   Machine_B: -10.0500
+2026-03-26 13:54:03,476 - INFO -   Machine_C: 4.5039
+2026-03-26 13:54:03,477 - INFO - -> Recommended Improvement Action: Machine_C (Highest positive mean SHAP: 4.5039)
+2026-03-26 13:54:03,477 - INFO - -> Action to Avoid: Machine_B (Lowest negative mean SHAP: -10.0500)
+2026-03-26 14:00:15,406 - INFO - === Process Quality XAI Pipeline ===
+2026-03-26 14:00:15,406 - INFO - 1. Loading and preprocessing data...
+2026-03-26 14:00:15,421 - INFO - 2. Training XGBoost Model...
+2026-03-26 14:00:17,564 - INFO - XGBoost Test MAE: 2.5600
+2026-03-26 14:00:17,564 - INFO - 3. Calculating SHAP values...
+2026-03-26 14:00:17,593 - INFO - --- Step 1: Process Prioritization ---
+2026-03-26 14:00:17,593 - INFO - 1. Process_3: 7.4059
+2026-03-26 14:00:17,593 - INFO - 2. Process_4: 1.3364
+2026-03-26 14:00:17,593 - INFO - 3. Process_2: 1.1125
+2026-03-26 14:00:17,593 - INFO - 4. Process_5: 1.0094
+2026-03-26 14:00:17,593 - INFO - 5. Process_1: 0.9540
+2026-03-26 14:00:17,593 - INFO - Top-ranked process identified: Process_3
+2026-03-26 14:00:17,593 - INFO - --- Step 2: Action Selection ---
+2026-03-26 14:00:17,595 - INFO - Mean raw SHAP values by potential actions:
+2026-03-26 14:00:17,595 - INFO -   Machine_A: 4.1989
+2026-03-26 14:00:17,595 - INFO -   Machine_B: -10.0500
+2026-03-26 14:00:17,595 - INFO -   Machine_C: 4.5039
+2026-03-26 14:00:17,595 - INFO - -> Recommended Improvement Action: Machine_C (Highest positive mean SHAP: 4.5039)
+2026-03-26 14:00:17,595 - INFO - -> Action to Avoid: Machine_B (Lowest negative mean SHAP: -10.0500)
